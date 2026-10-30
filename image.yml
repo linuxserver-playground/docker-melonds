@@ -15,6 +15,13 @@ upstream:
   notes:
     type: github_release
     repo: melonDS-emu/melonDS
+  sponsor:
+  - name: melonDS
+    url: http://melonds.kuribo64.net/donate.php
+  - name: melonDS (Patreon)
+    url: https://www.patreon.com/Arisotura
+  - name: melonDS (PayPal)
+    url: https://paypal.me/Arisotura
 
 release:
   branch: master
