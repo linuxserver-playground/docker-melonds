@@ -9,6 +9,9 @@ upstream:
   version:
     type: github_release
     repo: melonDS-emu/melonDS
+    require_assets:
+      - asset: '^melonDS\-.*\-ubuntu\-x86_64\.zip$'
+      - asset: '^melonDS\-.*\-ubuntu\-aarch64\.zip$'
   notes:
     type: github_release
     repo: melonDS-emu/melonDS
